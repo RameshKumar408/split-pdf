@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'source-code-pro', 'Menlo', 'Monaco', 'Consolas', 'Courier New',
+    monospace;
+}
+
+.pdf-div {
+
+  background-color: #e6e1e1;
+  margin-top: 5vw;
+  /* Adding margin top using viewport width */
+}
+
+/* Adjusting padding and margin for small screens */
+@media screen and (max-width: 768px) {
+  .pdf-div {
+    padding: 5vw;
+    /* Adjust as needed */
+    margin-top: 5vw;
+    /* Adjust as needed */
+  }
+}
+
+canvas.react-pdf__Page__canvas {
+  margin-bottom: 5vw;
+  margin-right: 5vw;
+  margin-left: 5vw;
+  /* Using viewport width (vw) for responsive margin */
+}
+
+/* Adjusting margin for small screens */
+@media screen and (max-width: 768px) {
+  canvas.react-pdf__Page__canvas {
+    margin-bottom: 5vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    /* Adjust as needed */
+  }
+}
