@@ -3,7 +3,7 @@
 
 # Run FrontEnd
 
-      cd frondend
+      cd frontend
       npm install
       npm start
 
